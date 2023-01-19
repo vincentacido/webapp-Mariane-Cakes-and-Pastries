@@ -7939,7 +7939,7 @@ textarea.form-control-lg {
 }
 
 .rounded-circle {
-  border-radius: 50% !important;
+  border-radius: 0% !important;
 }
 
 .rounded-pill {
@@ -11410,7 +11410,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/header-bg.jpg");
+  background-image: url("../assets/img/portfolio/Cakesandpastries.JPG");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -11589,7 +11589,7 @@ header.masthead .masthead-heading {
   text-align: center;
   color: white;
   border: 7px solid #e9ecef;
-  border-radius: 100%;
+  border-radius: 0%;
   background-color: #ffc800;
 }
 .timeline > li .timeline-image h4, .timeline > li .timeline-image .h4 {
