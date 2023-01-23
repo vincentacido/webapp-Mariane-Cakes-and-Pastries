@@ -14,47 +14,67 @@
                 <div class="masthead-heading text-uppercase">Mariane's Cakes and Pastries</div>
             </div>
         </header>
-        <!-- Services-->
-        <section class="page-section" id="services">
+
+         <section class="page-section" id="about">
+                <div class="about-heading-content">
+                    <div class="row">
+                        <div class="col-xl-9 col-lg-10 mx-auto">
+                            <div class="bg-faded rounded p-5">
+                                <h2 class="section-heading mb-4">
+                                    {{-- <span class="section-heading-upper">Strong Coffee, Strong Roots</span> --}}
+                                     <div class="text-center">
+                                        <h2 class="fst-italic badge bg-primary text-wrap section-heading text-uppercase">About</h2>
+                                        {{-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> --}}
+                                    </div>  
+                                </h2>
+                                <p class="fst-italic text-center">The small business Mariane's Cakes & Pastries offers a wide selection of cakes and pastries.
+                                    There are several cakes available, including custard cake, red velvet cake, mango cake, and custom desserts that can be ordered.
+                                    Brownies, Macaroons, ButterScotch, 
+                                    Revel Bars, Cake Pops, and No Bake  Cheesecake are just a few of the pastries they provide, all of which are delicious and delightful.</>
+                                </p>
+                                <p class="fst-italic text-center">
+                                    We think that eating is a coping method for stress, and that cakes and pastries are among the finest.
+                                    Therefore, Mariane's Cakes and Pastries is here to give or satisfy your needs whenever you desire any nice cakes or pastries.
+                                </p>
             <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Announcements</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-                </div>
-                <div class="row text-center">
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">E-Commerce</h4>
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                    </div>
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">Responsive Design</h4>
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                    </div>
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">Web Security</h4>
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                 <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="assets/img/portfolio/Cakesandpastries.JPG" alt="..." />
+                        <div class="about-heading-content">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- Portfolio Grid-->
-        <section class="page-section bg-light" id="portfolio">
+
+        <!-- About-->
+        <section class="page-section bg-light" id="team">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Pastries</h2>
+                    <h2 class="section-heading text-uppercase">Vision & Mision</h2>
                     <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                </div>
+                
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/2.jpg" alt="..." />
+                            <h4>Diana Petersen</h4>
+                            <p class="text-muted">Lead Marketer</p>
+                            <div class="row">
+                        <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p></div>
+                     </div>
+                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen Twitter Profile"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen Facebook Profile"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+        </section>
+        
+        <!-- Portfolio Grid-->
+        <section class="page-section bg-white" id="portfolio">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="fst-italic badge bg-primary text-wrap section-heading text-uppercase">Pastries</h2>
+                    <h3 class="section-subheading text-muted"></h3>
                 </div>
                 <div class="row">
                     <div class="col-lg-4 col-sm-6 mb-4">
@@ -67,7 +87,7 @@
                                 <img class="img-fluid" src="assets/img/portfolio/Macaroons.jpg" alt="..." />
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Macaroons</div>
+                                <div class="fst-italic portfolio-caption-heading">Macaroons</div>
                             </div>
                         </div>
                     </div>
@@ -81,7 +101,7 @@
                                 <img class="img-fluid" src="assets/img/portfolio/Revel Bars.jpg" alt="..." />
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Revel Bars</div>
+                                <div class="fst-italic portfolio-caption-heading">Revel Bars</div>
                             </div>
                         </div>
                     </div>
@@ -95,7 +115,7 @@
                                 <img class="img-fluid" src="assets/img/portfolio/ButterScotch.jpg" alt="..." />
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">ButterScotch</div>                            </div>
+                                <div class="fst-italic portfolio-caption-heading">ButterScotch</div>                            </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
@@ -108,7 +128,7 @@
                                 <img class="img-fluid" src="assets/img/portfolio/Brownies.jpg" alt="..." />
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Brownies</div>                            </div>
+                                <div class="fst-italic portfolio-caption-heading">Brownies</div>                            </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
@@ -121,7 +141,7 @@
                                 <img class="img-fluid" src="assets/img/portfolio/Cakepops.webp" alt="..." />
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Cake Pops</div>
+                                <div class="fst-italic portfolio-caption-heading">Cake Pops</div>
                             </div>
                         </div>
                     </div>
@@ -135,119 +155,97 @@
                                 <img class="img-fluid" src="assets/img/portfolio/NoBake.jpg" alt="..." />
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">No Bake Cheesecake</div>
+                                <div class="fst-italic portfolio-caption-heading">No Bake Cheesecake</div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- About-->
-        <section class="page-section" id="about">
+        <!-- Cakes-->
+        <section class="page-section bg-light" id="cakes">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Cakes</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="fst-italic badge bg-primary text-wrap section-heading text-uppercase">Cakes</h2>
+                    <h3 class="section-subheading text-muted"></h3>
                 </div>
                 <ul class="timeline">
                     <li>
                         <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/portfolio/Customized Cake.jpg" alt="..." /></div>
                         <div class="timeline-panel">
-                            <div class="timeline-heading">
+                            <div class="fst-italic timeline-heading">
                                 <h4>Price:</h4>
-                                <h4 class="subheading">P 1500.00</h4>
+                                <h4 class="fst-italic subheading">P 1500.00</h4>
                             </div>
-                            <div class="timeline-body"><p class="text-muted">Any form of cake that deviates from standard cake work is considered a customized cake. This can involve extra details not found in a standard design birthday cake, such as handcrafted fondant decorations, flowers, or attention to detail. Wedding cakes and tiered cakes are also regarded as custom.</p></div>
+                            <div class="timeline-body"><p class="fst-italic">Any form of cake that deviates from standard cake work is considered a customized cake. This can involve extra details not found in a standard design birthday cake, such as handcrafted fondant decorations, flowers, or attention to detail. Wedding cakes and tiered cakes are also regarded as custom.</p></div>
                         </div>
                     </li>
                     <li class="timeline-inverted">
                         <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/portfolio/Red Velvet Cake.jpg" alt="..." /></div>
                         <div class="timeline-panel">
-                            <div class="timeline-heading">
+                            <div class="fst-italic timeline-heading">
                                 <h4>Price:</h4>
-                                <h4 class="subheading">P 800.00</h4>
+                                <h4 class="fst-italic subheading">P 800.00</h4>
                             </div>
-                            <div class="timeline-body"><p class="text-muted">Traditionally, red velvet cake is a layer cake with ermine frosting on top that is red, red-brown, crimson, or scarlet in hue. The crimson hue of traditional recipes comes from non-Dutch, anthocyanin-rich chocolate rather than from food coloring. Buttermilk, butter, chocolate, vinegar, and wheat are typical components.</p></div>
+                            <div class="timeline-body"><p class="fst-italic">Traditionally, red velvet cake is a layer cake with ermine frosting on top that is red, red-brown, crimson, or scarlet in hue. The crimson hue of traditional recipes comes from non-Dutch, anthocyanin-rich chocolate rather than from food coloring. Buttermilk, butter, chocolate, vinegar, and wheat are typical components.</p></div>
                         </div>
                     </li>
                     <li>
                         <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/portfolio/Mango Cake.jpg" alt="..." /></div>
                         <div class="timeline-panel">
-                            <div class="timeline-heading">
+                            <div class="fst-italic timeline-heading">
                                 <h4>Price:</h4>
-                                <h4 class="subheading">P 800.00</h4>
+                                <h4 class="fst-italic subheading">P 800.00</h4>
                             </div>
-                            <div class="timeline-body"><p class="text-muted">A layered chiffon cake from the Philippines called mango cake or mango chiffon cake contains sweet, ripe Carabao mangoes. Typically, mango cream icing, fresh mango slices, or pureed mangoes with gulaman or gelatin are used as the toppings. In addition, cream, cream cheese, and chocolate are frequently used as toppings.</p></div>
+                            <div class="timeline-body"><p class="fst-italic">A layered chiffon cake from the Philippines called mango cake or mango chiffon cake contains sweet, ripe Carabao mangoes. Typically, mango cream icing, fresh mango slices, or pureed mangoes with gulaman or gelatin are used as the toppings. In addition, cream, cream cheese, and chocolate are frequently used as toppings.</p></div>
                         </div>
                     </li>
                     <li class="timeline-inverted">
                         <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/portfolio/Custard Cake.jpg" alt="..." /></div>
                         <div class="timeline-panel">
-                            <div class="timeline-heading">
+                            <div class="fst-italic timeline-heading">
                                 <h4>Price:</h4>
-                                <h4 class="subheading">P 500.00</h4>
+                                <h4 class="fst-italic subheading">P 500.00</h4>
                             </div>
-                            <div class="timeline-body"><p class="text-muted">Cake with leche flan or caramel custard cake is a two-layer delicacy. Specifically, a light and airy chiffon cake layer was placed on top of a layer of caramel custard. A light chiffon cake is combined with a sweet caramel custard to give it firmness. The custard has a hint of burnt sugar flavor.</p></div>
+                            <div class="timeline-body"><p class="fst-italic">Cake with leche flan or caramel custard cake is a two-layer delicacy. Specifically, a light and airy chiffon cake layer was placed on top of a layer of caramel custard. A light chiffon cake is combined with a sweet caramel custard to give it firmness. The custard has a hint of burnt sugar flavor.</p></div>
                         </div>
                     </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image">
+                    {{-- <li class="timeline-inverted">
+                        <div class="fst-italic timeline-image">
                             <h4>
                                 Buy
                                 <br />
                                 Now!
                                 <br />
-                            </h4>
+                            </h4> --}}
                         </div>
                     </li>
                 </ul>
             </div>
         </section>
-        <!-- Team-->
+        {{-- <!-- About-->
         <section class="page-section bg-light" id="team">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">About</h2>
+                    <h2 class="section-heading text-uppercase">Vison & Mision</h2>
                     <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
                 </div>
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/1.jpg" alt="..." />
-                            <h4>Parveen Anand</h4>
-                            <p class="text-muted">Lead Designer</p>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand Twitter Profile"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand Facebook Profile"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
+                
                     <div class="col-lg-4">
                         <div class="team-member">
                             <img class="mx-auto rounded-circle" src="assets/img/team/2.jpg" alt="..." />
                             <h4>Diana Petersen</h4>
                             <p class="text-muted">Lead Marketer</p>
+                            <div class="row">
+                        <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p></div>
+                     </div>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen Twitter Profile"><i class="fab fa-twitter"></i></a>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen Facebook Profile"><i class="fab fa-facebook-f"></i></a>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
-                    <div class="col-lg-4">
-                        <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/3.jpg" alt="..." />
-                            <h4>Larry Parker</h4>
-                            <p class="text-muted">Lead Developer</p>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Twitter Profile"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Facebook Profile"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p></div>
-                </div>
-            </div>
-        </section>
-        <!-- Clients-->
+        </section> --}}
+        {{-- <!-- Clients-->
         <div class="py-5">
             <div class="container">
                 <div class="row align-items-center">
@@ -265,7 +263,8 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
+
         <!-- Contact-->
         <section class="page-section" id="contact">
             <div class="container">
