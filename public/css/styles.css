@@ -84,7 +84,8 @@ body {
   line-height: var(--bs-body-line-height);
   color: var(--bs-body-color);
   text-align: var(--bs-body-text-align);
-  background-color: #f0e5ef;
+  background: rgb(240,229,239);
+  background: linear-gradient(328deg, rgba(240,229,239,1) 42%, rgba(233,148,228,1) 100%);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -489,8 +490,8 @@ progress {
 }
 
 .lead {
-  font-size: 1.25rem;
-  font-weight: 300;
+  font-size: 1rem;
+  font-weight: 0;
 }
 
 .display-1 {
@@ -7808,7 +7809,8 @@ textarea.form-control-lg {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: #f0e5ef;
+  background: rgb(240,229,239);
+  background: linear-gradient(328deg, rgba(240,229,239,1) 42%, rgba(233,148,228,1) 100%);
 }
 
 .bg-secondary {
@@ -7838,22 +7840,26 @@ textarea.form-control-lg {
 
 .bg-light {
   --bs-bg-opacity: 1;
-  background-color: #f0e5ef;
+  background: rgb(240,229,239);
+  background: linear-gradient(328deg, rgba(240,229,239,1) 42%, rgba(233,148,228,1) 100%);
 }
 
 .bg-dark {
   --bs-bg-opacity: 1;
-  background-color: #f0e5ef;
+  background: rgb(240,229,239);
+  background: linear-gradient(328deg, rgba(240,229,239,1) 42%, rgba(233,148,228,1) 100%);
 }
 
 .bg-black {
   --bs-bg-opacity: 1;
-  background-color: #f0e5ef;
+  background: rgb(240,229,239);
+  background: linear-gradient(328deg, rgba(240,229,239,1) 42%, rgba(233,148,228,1) 100%);
 }
 
 .bg-white {
   --bs-bg-opacity: 1;
-  background-color: #f0e5ef;
+  background: rgb(240,229,239);
+  background: linear-gradient(328deg, rgba(240,229,239,1) 42%, rgba(233,148,228,1) 100%);
 }
 
 .bg-body {
@@ -11341,7 +11347,8 @@ p {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: #212529;
+  background: rgb(36,31,37);
+  background: linear-gradient(345deg, rgba(36,31,37,1) 18%, rgba(233,148,228,1) 100%);
 }
 #mainNav .navbar-toggler {
   padding: 0.75rem;
@@ -11725,7 +11732,7 @@ section#contact {
   background-position: center;
 }
 section#contact .section-heading {
-  color: #fff;
+  color: #E637A6;
 }
 section#contact form#contactForm .form-group {
   margin-bottom: 1.5rem;

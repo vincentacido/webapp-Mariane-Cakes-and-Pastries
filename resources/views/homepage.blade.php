@@ -1,6 +1,6 @@
 @extends('homepage.layouts.app')
  
-@section('title', 'Homepage')
+@section('title', "Marian's Cake and Pastries")
  
 @section('content')
 
@@ -56,8 +56,8 @@
 
                 <!-- About Section Content-->
                 <div class="row">
-                    <div class="fst-italic col-lg-4 ms-auto"><p class="lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p></div>
-                    <div class="fst-italic col-lg-4 me-auto"><p class="lead">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p></div>
+                    <div class="fst-italic col-lg-4 ms-auto"><p class="lead">To constantly innovate and provide exceptional service, using sustainable ingredients and fostering a culture of excellence among our team members.</p></div>
+                    <div class="fst-italic col-lg-4 me-auto"><p class="lead">To become the leading provider of high-quality baked goods in the market, consistently exceeding customer expectations.</p></div>
                 </div>
                 
         </section>
@@ -167,8 +167,8 @@
                         <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/portfolio/Customized Cake.jpg" alt="..." /></div>
                         <div class="timeline-panel">
                             <div class="fst-italic timeline-heading">
-                                <h4>Price:</h4>
-                                <h4 class="fst-italic subheading">P 1500.00</h4>
+                                <h4>Customized Cake</h4>
+                                <h4 class="fst-italic subheading">Price: P 1500.00</h4>
                             </div>
                             <div class="timeline-body"><p class="fst-italic">Any form of cake that deviates from standard cake work is considered a customized cake. This can involve extra details not found in a standard design birthday cake, such as handcrafted fondant decorations, flowers, or attention to detail. Wedding cakes and tiered cakes are also regarded as custom.</p></div>
                         </div>
@@ -177,8 +177,8 @@
                         <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/portfolio/Red Velvet Cake.jpg" alt="..." /></div>
                         <div class="timeline-panel">
                             <div class="fst-italic timeline-heading">
-                                <h4>Price:</h4>
-                                <h4 class="fst-italic subheading">P 800.00</h4>
+                                <h4>Red Velvet Cake</h4>
+                                <h4 class="fst-italic subheading">Price: P 800.00</h4>
                             </div>
                             <div class="timeline-body"><p class="fst-italic">Traditionally, red velvet cake is a layer cake with ermine frosting on top that is red, red-brown, crimson, or scarlet in hue. The crimson hue of traditional recipes comes from non-Dutch, anthocyanin-rich chocolate rather than from food coloring. Buttermilk, butter, chocolate, vinegar, and wheat are typical components.</p></div>
                         </div>
@@ -187,8 +187,8 @@
                         <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/portfolio/Mango Cake.jpg" alt="..." /></div>
                         <div class="timeline-panel">
                             <div class="fst-italic timeline-heading">
-                                <h4>Price:</h4>
-                                <h4 class="fst-italic subheading">P 800.00</h4>
+                                <h4>Mango Cake</h4>
+                                <h4 class="fst-italic subheading">Price: P 800.00</h4>
                             </div>
                             <div class="timeline-body"><p class="fst-italic">A layered chiffon cake from the Philippines called mango cake or mango chiffon cake contains sweet, ripe Carabao mangoes. Typically, mango cream icing, fresh mango slices, or pureed mangoes with gulaman or gelatin are used as the toppings. In addition, cream, cream cheese, and chocolate are frequently used as toppings.</p></div>
                         </div>
@@ -197,8 +197,8 @@
                         <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/portfolio/Custard Cake.jpg" alt="..." /></div>
                         <div class="timeline-panel">
                             <div class="fst-italic timeline-heading">
-                                <h4>Price:</h4>
-                                <h4 class="fst-italic subheading">P 500.00</h4>
+                                <h4>Custard Cake</h4>
+                                <h4 class="fst-italic subheading">Price: P 500.00</h4>
                             </div>
                             <div class="timeline-body"><p class="fst-italic">Cake with leche flan or caramel custard cake is a two-layer delicacy. Specifically, a light and airy chiffon cake layer was placed on top of a layer of caramel custard. A light chiffon cake is combined with a sweet caramel custard to give it firmness. The custard has a hint of burnt sugar flavor.</p></div>
                         </div>
