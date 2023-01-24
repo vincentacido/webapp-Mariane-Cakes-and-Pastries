@@ -46,27 +46,20 @@
             </div>
         </section>
 
-        <!-- About-->
-        <section class="page-section bg-light" id="team">
+        <!-- About Section-->
+        <section class="page-section bg-primary text-white mb-0" id="team">
             <div class="container">
+                <!-- About Section Heading-->
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Vision & Mision</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="fst-italic badge bg-primary text-wrap section-heading text-uppercase">Mision & Vision</h2>
+                </div>  
+
+                <!-- About Section Content-->
+                <div class="row">
+                    <div class="fst-italic col-lg-4 ms-auto"><p class="lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p></div>
+                    <div class="fst-italic col-lg-4 me-auto"><p class="lead">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p></div>
                 </div>
                 
-                    <div class="col-lg-4">
-                        <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/2.jpg" alt="..." />
-                            <h4>Diana Petersen</h4>
-                            <p class="text-muted">Lead Marketer</p>
-                            <div class="row">
-                        <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p></div>
-                     </div>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen Twitter Profile"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen Facebook Profile"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
         </section>
         
         <!-- Portfolio Grid-->
@@ -301,9 +294,9 @@
                         </div>
                         <div class="col-md-6">
                             <div class="form-group form-group-textarea mb-md-0">
-                                <!-- Message input-->
-                                <textarea class="form-control" id="message" placeholder="Your Message *" data-sb-validations="required"></textarea>
-                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
+                                 <div>
+                                    <iframe class="responsive-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d924.9788965363963!2d125.55306392918145!3d8.962668024328067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc7b4a50a174a079d!2zOMKwNTcnNDUuNiJOIDEyNcKwMzMnMTMuMCJF!5e1!3m2!1sen!2sph!4v1674537397526!5m2!1sen!2sph" width="426" height="256" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                 </div>
                             </div>
                         </div>
                     </div>
