@@ -11390,7 +11390,8 @@ p {
     transition: font-size 0.3s ease-in-out;
   }
   #mainNav .navbar-brand img {
-    height: 2rem;
+    height: 4rem;
+    width: 100%;
     transition: height 0.3s ease-in-out;
   }
   #mainNav.navbar-shrink {
@@ -11402,8 +11403,9 @@ p {
     font-size: 1.25em;
   }
   #mainNav.navbar-shrink .navbar-brand svg,
-#mainNav.navbar-shrink .navbar-brand img {
-    height: 1.5rem;
+  #mainNav.navbar-shrink .navbar-brand img {
+    height: 4rem;
+    width: 100%;
   }
   #mainNav .navbar-nav .nav-item {
     margin-right: 1rem;
