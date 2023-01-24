@@ -1,6 +1,6 @@
 @extends('homepage.layouts.app')
  
-@section('title', "Marian's Cake and Pastries")
+@section('title', "Mariane's Cake and Pastries")
  
 @section('content')
 
@@ -263,7 +263,7 @@
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Contact Us</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h3 class="section-subheading text-muted"></h3>
                 </div>
                 <!-- * * * * * * * * * * * * * * *-->
                 <!-- * * SB Forms Contact Form * *-->
@@ -272,30 +272,45 @@
                 <!-- To make this form functional, sign up at-->
                 <!-- https://startbootstrap.com/solution/contact-forms-->
                 <!-- to get an API token!-->
-                <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-                    <div class="row align-items-stretch mb-5">
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <!-- Name input-->
-                                <input class="form-control" id="name" type="text" placeholder="Your Name *" data-sb-validations="required" />
-                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                <section class="contact-section bg-black">
+                        <div class="container px-4 px-lg-5">
+                            <div class="row gx-4 gx-lg-5">
+                                <div class="col-md-4 mb-3 mb-md-0">
+                                    <div class="card py-4 h-100">
+                                        <div class="card-body text-center">
+                                            <i class="fa-regular fa-user text-primary mb-2"></i>
+                                            <h4 class="text-uppercase m-0">Name</h4>
+                                            <hr class="my-4 mx-auto" />
+                                            <div class="small text-black-50">Maricris S. Acido</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3 mb-md-0">
+                                    <div class="card py-4 h-100">
+                                        <div class="card-body text-center">
+                                            <i class="fas fa-envelope text-primary mb-2"></i>
+                                            <h4 class="text-uppercase m-0">Email</h4>
+                                            <hr class="my-4 mx-auto" />
+                                            <div class="small text-black-50"><a href="#!">acidovincent6@gmail.com</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3 mb-md-0">
+                                    <div class="card py-4 h-100">
+                                        <div class="card-body text-center">
+                                            <i class="fas fa-mobile-alt text-primary mb-2"></i>
+                                            <h4 class="text-uppercase m-0">Phone</h4>
+                                            <hr class="my-4 mx-auto" />
+                                            <div class="small text-black-50">0912 593 1632</div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="form-group">
-                                <!-- Email address input-->
-                                <input class="form-control" id="email" type="email" placeholder="Your Email *" data-sb-validations="required,email" />
-                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
-                            </div>
-                            <div class="form-group mb-md-0">
-                                <!-- Phone number input-->
-                                <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" data-sb-validations="required" />
-                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
-                            </div>
-                        </div>
+
                         <div class="col-md-6">
                             <div class="form-group form-group-textarea mb-md-0">
                                 <div class="responsive-container">
-                                    <iframe class="responsive-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d924.9788965363963!2d125.55306392918145!3d8.962668024328067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc7b4a50a174a079d!2zOMKwNTcnNDUuNiJOIDEyNcKwMzMnMTMuMCJF!5e1!3m2!1sen!2sph!4v1674537397526!5m2!1sen!2sph" width="426" height="256" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                    <iframe class="responsive-iframe d-flex align-content-around flex-wrap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d924.9788965363963!2d125.55306392918145!3d8.962668024328067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc7b4a50a174a079d!2zOMKwNTcnNDUuNiJOIDEyNcKwMzMnMTMuMCJF!5e1!3m2!1sen!2sph!4v1674537397526!5m2!1sen!2sph" width="426" height="270" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                                 </div>
                             </div>
                         </div>
@@ -337,7 +352,7 @@
                                 <div class="modal-body">
                                     <!-- Project details-->
                                     <h2 class="text-uppercase">Macaroons</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <p class="item-intro text-muted"></p>
                                     <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Macaroons.jpg" alt="..." />
                                     <p>A macaroon is a type of drop cookie that is created using sugar, egg whites, shredded coconut, other flavors (such vanilla essence), and occasionally ground almonds. Nowadays, sweetened condensed milk is frequently used in macaroon recipes. Traditional cookies resemble coconut mounds more than macaroons do.</p>
                                     <ul class="list-inline">
@@ -368,7 +383,7 @@
                                 <div class="modal-body">
                                     <!-- Project details-->
                                     <h2 class="text-uppercase">Revel Bars</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <p class="item-intro text-muted"></p>
                                     <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Revel Bars.jpg" alt="..." />
                                     <p>Chocolate Revel Bars are a type of chewy crunchy dessert / snack made with oats, nuts, chocolates, and condensed milk; it's one of the best oatmeal recipes. You can tell this is going to be good just by the name, as revel means "to take great pleasure or delight," and that's exactly what you get with every bite of this delectable treat.</p>
                                     <ul class="list-inline">
@@ -399,7 +414,7 @@
                                 <div class="modal-body">
                                     <!-- Project details-->
                                     <h2 class="text-uppercase">ButterScotch</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <p class="item-intro text-muted"></p>
                                     <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/ButterScotch.jpg" alt="..." />
                                     <p>Butterscotch Bars are a centuries-old dessert. These chewy bars are sure to please the entire family. They're made with brown sugar, butter, corn syrup, and vanilla extract. It is typically topped with toasted nuts or whipped cream.</p>
                                     <ul class="list-inline">
@@ -430,7 +445,7 @@
                                 <div class="modal-body">
                                     <!-- Project details-->
                                     <h2 class="text-uppercase">Brownies</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <p class="item-intro text-muted"></p>
                                     <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Brownies.jpg" alt="..." />
                                     <p>A brownie, is a baked chocolate confection. Brownies can be fudgy or cakey depending on their density. Brownies frequently, but not always, have a glossy "skin" on their upper crust. They may also contain nuts, frosting, cream cheese, chocolate chips, or other ingredients. A blond brownie or blondie is a variation that uses brown sugar and vanilla instead of chocolate in the batter.</p>
                                     <ul class="list-inline">
@@ -461,7 +476,7 @@
                                 <div class="modal-body">
                                     <!-- Project details-->
                                     <h2 class="text-uppercase">Cake Pops</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <p class="item-intro text-muted"></p>
                                     <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Cakepops.webp" alt="..." />
                                     <p>A cake pop is a type of cake that is shaped like a lollipop. Cake crumbs are combined with icing or chocolate and formed into small spheres or cubes, similar to cake balls, before being coated with icing, chocolate, or other decorations and attached to lollipop sticks.</p>
                                     <ul class="list-inline">
@@ -492,7 +507,7 @@
                                 <div class="modal-body">
                                     <!-- Project details-->
                                     <h2 class="text-uppercase">No Bake Cheesecake</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <p class="item-intro text-muted"></p>
                                     <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/NoBake.jpg" alt="..." />
                                     <p>This is truly the most perfect and simple no-bake cheesecake. Following this no-bake cheesecake recipe will result in a smooth and creamy dessert that sets up beautifully in the refrigerator. No-bake cheesecake is lighter than regular cheesecake. It's lightly sweet and perfectly refreshing!</p>
                                     <ul class="list-inline">

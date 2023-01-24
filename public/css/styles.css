@@ -1178,7 +1178,7 @@ progress {
 
   .col-md-6 {
     flex: 0 0 auto;
-    width: 50%;
+    width: 100%;
   }
 
   .col-md-7 {
@@ -5534,7 +5534,8 @@ textarea.form-control-lg {
   flex-direction: column;
   width: 100%;
   pointer-events: auto;
-  background-color: #fff;
+  background: rgb(240,229,239);
+  background: linear-gradient(328deg, rgba(240,229,239,1) 42%, rgba(233,148,228,1) 100%);
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 0.3rem;
@@ -7488,8 +7489,8 @@ textarea.form-control-lg {
 }
 
 .py-4 {
-  padding-top: 1.5rem !important;
-  padding-bottom: 1.5rem !important;
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
 }
 
 .py-5 {
@@ -7852,8 +7853,7 @@ textarea.form-control-lg {
 
 .bg-black {
   --bs-bg-opacity: 1;
-  background: rgb(240,229,239);
-  background: linear-gradient(328deg, rgba(240,229,239,1) 42%, rgba(233,148,228,1) 100%);
+  background: #212529
 }
 
 .bg-white {
@@ -11324,7 +11324,7 @@ p {
 
 @media (min-width: 768px) {
   section {
-    padding: 9rem 0;
+    padding: 4rem 0;
   }
 }
 .btn-xl {
@@ -11347,8 +11347,8 @@ p {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background: rgb(36,31,37);
-  background: linear-gradient(345deg, rgba(36,31,37,1) 18%, rgba(233,148,228,1) 100%);
+  background: rgb(84,60,84);
+  background: linear-gradient(180deg, rgba(84,60,84,1) 16%, rgba(166,29,124,1) 58%, rgba(233,148,228,1) 100%);
 }
 #mainNav .navbar-toggler {
   padding: 0.75rem;
@@ -11489,7 +11489,8 @@ header.masthead .masthead-heading {
 #portfolio .portfolio-item .portfolio-caption {
   padding: 1.5rem;
   text-align: center;
-  background-color: #fff;
+  background-color: rgb(240,229,239);
+  background: linear-gradient(328deg, rgba(240,229,239,1) 42%, rgba(233,148,228,1) 100%);;
 }
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
   font-size: 1.5rem;
@@ -11809,6 +11810,6 @@ section#contact form#contactForm :-ms-input-placeholder {
     @media (min-width: 769px) {
         .responsive-iframe {
             width: 426px;
-            height: 256px;
+            height: 270px;
         }
     }
