@@ -1,4 +1,17 @@
 <!-- Navigation-->
+<div class="news-container">
+        <div class="title">
+            Announcement
+        </div>
+
+        <ul>
+            <li>
+                INSERT ANY TEXT HERE!
+            </li>
+        </ul>
+</div>
+<br>
+<br>
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div class="container">
                 <a class="navbar-brand" href="#page-top"><img src="assets/img/portfolio/Mariane_s_FINAL_LOGO-removebg-preview (1).png" alt="..." /></a>
