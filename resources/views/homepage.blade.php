@@ -14,6 +14,26 @@
                 <div class="masthead-heading text-uppercase">Mariane's Cakes and Pastries</div>
             </div>
         </header>
+        <br>
+        <br>
+
+
+
+
+
+
+        <div class="carousel" data-flickity='{ "autoPlay": true }'>
+            <div class="carousel-cell" style="background-image: url(assets/img/portfolio/Cake.jpg)"></div>
+            <div class="carousel-cell" style="background-image: url(assets/img/portfolio/ButterScotch.jpg)"></div>
+            <div class="carousel-cell" style="background-image: url(assets/img/portfolio/3.jpg)"></div>
+        </div>
+        <br>
+        <br>
+        
+
+
+
+
 
          <section class="page-section" id="about">
                 <div class="about-heading-content">
@@ -306,6 +326,8 @@
                                     </div>
                                 </div>
                             </div>
+                            <br>
+                            <br>
 
                         <div class="col-md-6">
                             <div class="form-group form-group-textarea mb-md-0">

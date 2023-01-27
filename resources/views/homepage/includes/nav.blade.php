@@ -6,7 +6,7 @@
 
         <ul>
             <li>
-                INSERT ANY TEXT HERE!
+                Palit namo aynag dugaya oy!!!!!!!!!! hehe
             </li>
         </ul>
 </div>

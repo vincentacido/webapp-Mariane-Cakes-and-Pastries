@@ -11800,7 +11800,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   height: 100%;
 }
 
-    @media (max-width: 768px) {
+@media (max-width: 768px) {
         .responsive-iframe {
             width: 100vw;
             height: 50vh;
@@ -11812,4 +11812,23 @@ section#contact form#contactForm :-ms-input-placeholder {
             width: 426px;
             height: 270px;
         }
+    }
+
+    *{
+      box-sizing: border-box;
+    }
+      
+    .carousel-cell{
+      width: 66%;
+      height: 500px;
+      margin-right: 10px;
+      border-radius: 15px;
+      background-size: cover;
+      background-position: center center;
+    }
+    
+      
+    .carousel-cell::before{
+      display: block;
+      content: '';
     }
