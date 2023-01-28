@@ -14,21 +14,24 @@
                 <div class="masthead-heading text-uppercase">Mariane's Cakes and Pastries</div>
             </div>
         </header>
-        <br>
-        <br>
 
 
 
 
 
-        
+        <section class="page-section" id="Announcement"> 
+        <div class="container">
+        <div class="text-center">
+                <h2 class="fst-italic badge bg-primary text-wrap section-heading text-uppercase">Announcements</h2>
+        </div>
         <div class="carousel" data-flickity='{ "autoPlay": true }'>
         @foreach ($sliders as $sliderItems)
             <div class="carousel-cell" style="background-image: url({{ asset($sliderItems->image)}})"></div>
         @endforeach
         </div>
-        <br>
-        <br>
+        </div>
+        {{-- <br>
+        <br> --}}
         
 
 
@@ -282,7 +285,7 @@
         <section class="page-section" id="contact">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="fst-italic section-heading text-uppercase">Contact Us</h2>
+                    <h2 class="fst-italic badge bg-primary text-wrap section-heading text-uppercase">Contact Us</h2>
                     <h3 class="section-subheading text-muted"></h3>
                 </div>
                 <!-- * * * * * * * * * * * * * * *-->

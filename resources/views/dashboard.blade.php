@@ -12,6 +12,9 @@
                 
                     <h1>Thank you for Logging in {{Auth::user()->name}}!</h1>
 
+                     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+                        <div class="container">
+                            <a class="navbar-brand" href="#page-top"><img src="assets/img/portfolio/Mariane_s_FINAL_LOGO-removebg-preview (1).png" alt="..." /></a>
 
 
                 </div>
