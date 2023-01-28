@@ -21,11 +21,11 @@
 
 
 
-
+        
         <div class="carousel" data-flickity='{ "autoPlay": true }'>
-            <div class="carousel-cell" style="background-image: url(assets/img/portfolio/Cake.jpg)"></div>
-            <div class="carousel-cell" style="background-image: url(assets/img/portfolio/ButterScotch.jpg)"></div>
-            <div class="carousel-cell" style="background-image: url(assets/img/portfolio/3.jpg)"></div>
+        @foreach ($sliders as $sliderItems)
+            <div class="carousel-cell" style="background-image: url({{ asset($sliderItems->image)}})"></div>
+        @endforeach
         </div>
         <br>
         <br>
@@ -282,7 +282,7 @@
         <section class="page-section" id="contact">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Contact Us</h2>
+                    <h2 class="fst-italic section-heading text-uppercase">Contact Us</h2>
                     <h3 class="section-subheading text-muted"></h3>
                 </div>
                 <!-- * * * * * * * * * * * * * * *-->

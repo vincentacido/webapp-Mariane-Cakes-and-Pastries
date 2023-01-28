@@ -5,9 +5,11 @@
         </div>
 
         <ul>
+        @foreach ($sliders as $sliderItem)
             <li>
-                Palit namo aynag dugaya oy!!!!!!!!!! hehe
+                {{$sliderItem->title}}
             </li>
+        @endforeach
         </ul>
 </div>
 <br>
