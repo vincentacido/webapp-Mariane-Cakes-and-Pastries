@@ -82,9 +82,9 @@ body {
   font-size: var(--bs-body-font-size);
   font-weight: var(--bs-body-font-weight);
   line-height: var(--bs-body-line-height);
-  color: #fff;
+  color: rgb(15, 15, 15);
   text-align: var(--bs-body-text-align);
-  background: #fd5c63;
+  background: #e9a2a2;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -4514,7 +4514,8 @@ textarea.form-control-lg {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #231d15;
+  background: rgb(255,255,255);
+  background: linear-gradient(145deg, rgba(255,255,255,1) 0%, rgba(8,8,8,0.9514180672268907) 100%);
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
@@ -4890,7 +4891,7 @@ textarea.form-control-lg {
   font-size: 0.75em;
   font-weight: 700;
   line-height: 1;
-  color: #fff;
+  color: rgb(15, 15, 15);
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;
@@ -5533,7 +5534,7 @@ textarea.form-control-lg {
   flex-direction: column;
   width: 100%;
   pointer-events: auto;
-  background: #ff5050;
+  background: #e9a2a2;
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 0.3rem;
@@ -6483,7 +6484,7 @@ textarea.form-control-lg {
 }
 
 .link-dark {
-  color: #fff;
+  color: rgb(15, 15, 15);
 }
 .link-dark:hover, .link-dark:focus {
   color: #1a1e21;
@@ -7777,7 +7778,7 @@ textarea.form-control-lg {
 
 .text-black-50 {
   --bs-text-opacity: 1;
-  color: #fff;
+  color: rgb(15, 15, 15)
 }
 
 .text-white-50 {
@@ -7808,7 +7809,7 @@ textarea.form-control-lg {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background: #231d15;
+  background: #e9a2a2;
 }
 
 .bg-secondary {
@@ -7838,7 +7839,7 @@ textarea.form-control-lg {
 
 .bg-light {
   --bs-bg-opacity: 1;
-  background: #fd5c63;
+  background: #e9a2a2;
 }
 
 .bg-dark {
@@ -7849,12 +7850,12 @@ textarea.form-control-lg {
 
 .bg-black {
   --bs-bg-opacity: 1;
-  background: #fd5c63;
+  background: #e9a2a2;
 }
 
 .bg-white {
   --bs-bg-opacity: 1;
-  background: #fd5c63;
+  background: #e9a2a2;
 }
 
 .bg-body {
@@ -11342,8 +11343,9 @@ p {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  /* background: rgb(66,66,66); */
-  background: #231d15;
+  background: rgb(255,255,255);
+  background: linear-gradient(145deg, rgba(255,255,255,1) 0%, rgba(8,8,8,0.9514180672268907) 100%);
+
 }
 #mainNav .navbar-toggler {
   padding: 0.75rem;
@@ -11484,7 +11486,8 @@ header.masthead .masthead-heading {
 #portfolio .portfolio-item .portfolio-caption {
   padding: 1.5rem;
   text-align: center;
-  background: #231d15
+  background: rgb(255,255,255);
+  background: linear-gradient(145deg, rgba(255,255,255,1) 0%, rgba(8,8,8,0.9514180672268907) 100%);
 }
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
   font-size: 1.5rem;
@@ -11729,7 +11732,7 @@ section#contact {
   background-position: center;
 }
 section#contact .section-heading {
-  color: #fff;
+  color: rgb(15, 15, 15);
 }
 section#contact form#contactForm .form-group {
   margin-bottom: 1.5rem;
