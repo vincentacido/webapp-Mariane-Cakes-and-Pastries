@@ -18,7 +18,7 @@
 
 
 
-
+        <!-- Announcement Section-->
         <section class="page-section" id="Announcement"> 
         <div class="container">
         <div class="text-center">
@@ -34,20 +34,30 @@
         <br> --}}
         
 
+ 
 
-
-
-<section class="page-section clearfix">
+        <!-- About Section-->
+        <section class="page-section bg-primary text-white mb-0" id="About">
             <div class="container">
-                <div class="intro">
-                    <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="assets/img/portfolio/1.jpg" alt="..." />
-                    <div class="intro-text left-0 text-center bg-faded p-5 rounded">
-                        <h2 class="section-heading mb-4">
-                            <span class="section-heading-upper">Fresh Coffee</span>
-                            <span class="section-heading-lower">Worth Drinking</span>
-                        </h2>
-                        <p class="mb-3">Every cup of our quality artisan coffee starts with locally sourced, hand picked ingredients. Once you try it, our coffee will be a blissful addition to your everyday morning routine - we guarantee it!</p>
-                        <div class="intro-button mx-auto"><a class="btn btn-primary btn-xl" href="#!">Visit Us Today!</a></div>
+        <div class="text-center">
+            <h2 class="fst-italic badge bg-primary text-wrap section-heading text-uppercase">About Us</h2>
+        </div> 
+                <div class="row gx-5 align-items-center">
+                    <div class="col-lg-6 order-lg-2">
+                        <div class="p-5"><img class="img-fluid rounded-circle" src="assets/img/portfolio/Mar.jpg" alt="..." /></div>
+                        <p></p>
+                    </div> 
+                    <div class="col-lg-6 order-lg-1">
+                        <div class="p-5 fst-italic text-align-justify">
+                            <p></p>
+                            <p>The small business Mariane's Cakes & Pastries offers a wide selection of cakes and pastries. 
+						            There are several cakes available, including custard cake, red velvet cake, mango cake, and custom desserts that can be ordered.
+                                	Brownies, Macaroons, ButterScotch, 
+                                	Revel Bars, Cake Pops, and No Bake  Cheesecake are just a few of the pastries they provide, all of which are delicious and delightful.</p>
+                            <p></p>
+                            <p>We think that eating is a coping method for stress, and that cakes and pastries are among the finest.
+                                Therefore, Mariane's Cakes and Pastries is here to give or satisfy your needs whenever you desire any nice cakes or pastries.</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -56,9 +66,8 @@
 
 
 
-
-        <!-- About Section-->
-        <section class="page-section bg-primary text-white mb-0" id="team">
+        {{-- <!-- About Section-->
+        <section class="page-section" id="team">
             <div class="container">
         <div class="text-center">
             <h2 class="fst-italic badge bg-primary text-wrap section-heading text-uppercase">Mision & Vision</h2>
@@ -70,7 +79,7 @@
                     <div class="col-lg-6 order-lg-1">
                         <div class="p-5">
                             {{-- <h2 class="display-4">For those about to rock...</h2> --}}
-                            <p>Mision</p>
+                            {{-- <p>Mision</p>
                             <p>To constantly innovate and provide exceptional service, using sustainable ingredients and fostering a culture of excellence among our team members.</p>
                             <p>Vision</p>
                             <p>To become the leading provider of high-quality baked goods in the market, consistently exceeding customer expectations.</p>
@@ -78,26 +87,83 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> --}} 
         
-    
-
-
-
-        {{-- <section class="page-section bg-primary text-white mb-0" id="team">
-            <div class="container">
-                <!-- About Section Heading-->
+ <section class="content-section" id="Vision and Mission">
                 <div class="text-center">
-                    <h2 class="fst-italic badge bg-primary text-wrap section-heading text-uppercase">Mision & Vision</h2>
-                </div>  
-
-                <!-- About Section Content-->
-                <div class="row">
-                    <div class="fst-italic col-lg-4 ms-auto"><p class="lead">To constantly innovate and provide exceptional service, using sustainable ingredients and fostering a culture of excellence among our team members.</p></div>
-                    <div class="fst-italic col-lg-4 me-auto"><p class="lead">To become the leading provider of high-quality baked goods in the market, consistently exceeding customer expectations.</p></div>
+                    <h2 class="fst-italic badge bg-primary text-wrap section-heading text-uppercase">Vision & Mission</h2>
+                    <h3 class="section-subheading text-muted"></h3>
+                </div>   
+ <div class="container-xxl py-6">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="row img-twice position-relative h-100">
+                        <div class="col-6">
+                            <img class="img-fluid rounded" src="assets/img/portfolio/Kitkat.jpg" alt="">
+                        </div>
+                        <div class="col-6 align-self-end">
+                            <img class="img-fluid rounded" src="assets/img/portfolio/pastries1.jpg" alt="">
+                        </div>
+                    </div>
                 </div>
-                
-        </section> --}}
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="h-100 fst-italic">
+                        {{-- <p class="text-primary text-uppercase mb-2">// About Us</p> --}}
+                        <h2 class="display-6 mb-4">We Bake Every Item From The Core Of Our Hearts</h2>
+                        <p>Vision</p> 
+                        <p>To become the leading provider of high-quality baked goods in the market, consistently exceeding customer expectations.</p>
+                        <p>Mission</p> 
+                        <p>To constantly innovate and provide exceptional service, using sustainable ingredients and fostering a culture of excellence among our team members.</p>
+                        <div class="row g-2 mb-4">
+                            <div class="col-sm-6">
+                                <i class="fa fa-check text-primary me-2"></i>Quality Products
+                            </div>
+                            <div class="col-sm-6">
+                                <i class="fa fa-check text-primary me-2"></i>Custom Products
+                            </div>
+                            <div class="col-sm-6">
+                                <i class="fa fa-check text-primary me-2"></i>Online Order
+                            </div>
+                            <div class="col-sm-6">
+                                <i class="fa fa-check text-primary me-2"></i>Home Delivery
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        <!-- Vision & Mision Section-->
+        {{-- <section class="content-section" id="team">
+            <div class="container px-4 px-lg-5">
+                <div class="text-center">
+                    <h2 class="fst-italic badge bg-primary text-wrap section-heading text-uppercase">Mission & Vision</h2>
+                    <h3 class="section-subheading text-muted"></h3>
+                </div>
+                <div class="row gx-0">
+                    <div class="col-lg-6">
+                        <a class="portfolio-item text-decoration-none">
+                            <div class="caption">
+                                <div class="caption-content fst-italic">
+                                    <div class="h2">Mission</div>
+                                    <p class="mb-0">To constantly innovate and provide exceptional service, using sustainable ingredients and fostering a culture of excellence among our team members.</p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/1.jpg" alt="..." />
+                        </a>
+                    </div>
+                    <div class="col-lg-6">
+                        <a class="portfolio-item text-decoration-none">
+                            <div class="caption">
+                                <div class="caption-content fst-italic">
+                                    <div class="h2">Vision</div>
+                                    <p class="mb-0">To become the leading provider of high-quality baked goods in the market, consistently exceeding customer expectations.</p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/2.jpg" alt="..." />
+                        </a>
+                    </div> --}}
         
         <!-- Portfolio Grid-->
         <section class="page-section bg-white" id="portfolio">
@@ -192,8 +258,10 @@
                 </div>
             </div>
         </section>
+
+
         <!-- Cakes-->
-        <section class="page-section bg-light" id="cakes">
+        <section class="page-section bg-light" id="Cakes">
             <div class="container">
                 <div class="text-center">
                     <h2 class="fst-italic badge bg-primary text-wrap section-heading text-uppercase">Cakes</h2>

@@ -1,5 +1,5 @@
 <!-- Navigation-->
-<div class="news-container">
+{{-- <div class="news-container">
         <div class="title">
             Announcement
         </div>
@@ -13,7 +13,7 @@
         </ul>
 </div>
 <br>
-<br>
+<br> --}}
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div class="container">
                 <a class="navbar-brand" href="#page-top"><img src="assets/img/portfolio/Mariane_s_FINAL_LOGO-removebg-preview (1).png" alt="..." /></a>
@@ -25,10 +25,10 @@
                     <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
                         <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="#Announcement">Announcements</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#team">Vision & Mision</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#About">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#Vision and Mission">Vision & Mission</a></li>
                         <li class="nav-item"><a class="nav-link" href="#portfolio">Pastries</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#cakes">Cakes</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#Cakes">Cakes</a></li>
                         <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                         <li class="nav-item"><a class="nav-link btn btn-primary" href="{{ url('/login') }}">Login</a></li>
                     </ul>
