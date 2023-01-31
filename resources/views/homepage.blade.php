@@ -165,7 +165,7 @@
                         </a>
                     </div> --}}
         
-        <!-- Portfolio Grid-->
+        <!-- Pastries Grid-->
         <section class="page-section bg-white" id="portfolio">
             <div class="container">
                 <div class="text-center">
@@ -321,6 +321,90 @@
                 </ul>
             </div>
         </section>
+
+
+        <!-- Gallery-->
+        {{-- <section id="gallery" class="gallery">
+
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Gallery</h2>
+          <p>Some photos of Mariane Cakes and Pastries</p>
+        </div>
+      </div>
+      <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row g-0">
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/portfolio/14.jpg" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="assets/img/portfolio/14.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/portfolio/5.jpg" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="assets/img/portfolio/15.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/portfolio/6.jpg" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="assets/img/portfolio/6.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/portfolio/7.jpg" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="assets/img/portfolio/7.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/portfolio/9.jpg" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="assets/img/portfolio/9.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/portfolio/11.jpg" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="assets/img/portfolio/11.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/portfolio/12.jpg" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="assets/img/portfolio/12.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/portfolio/13.jpg" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="assets/img/portfolio/13.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section> --}}
+
         {{-- <!-- About-->
         <section class="page-section bg-light" id="team">
             <div class="container">

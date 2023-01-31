@@ -42,7 +42,10 @@ class SliderController extends Controller
             // 'status' => $validatedData['status'],
         ]);
         
-        return redirect('sliders')->with('message', 'Slider Added Successfully');
+        session()->flash('status', 'Successfully Added! ');
+
+        return redirect('sliders');
+        // ->with('message', 'Slider Added Successfully');
     }
 
     public function edit(Slider $slider)

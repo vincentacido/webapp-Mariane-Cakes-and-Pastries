@@ -1,6 +1,6 @@
 <x-app-layout>
     <x-slot name="header">
-        <h2 class="text-slate-100 font-semibold text-xl text-gray-800 leading-tight">
+        <h2 class="text-slate-100 font-semibold text-xl leading-tight">
             {{ __('Announcement') }}
         </h2>
     </x-slot>
@@ -8,9 +8,9 @@
     <div class = "py-12">
         <div class = "col-md-12">
             @if ( session('status') )
-            <div class="max-w-7xl mx-auto sm:px-6 lg:px-8 my-5">
-                <div class="p-4 mb-4 text-sm text-green-700 bg-green-100 rounded-lg dark:bg-gray-800 dark:text-green-400" role="alert">
-                    <span class="font-medium">Success alert!</span> {{ session('status') }} 
+            <div class="bg-white text-center py-4 lg:px-4">
+                <div class="p-2 bg-indigo-800 items-center text-indigo-100 leading-none lg:rounded-full flex lg:inline-flex" role="alert">
+                    <span class="flex rounded-full bg-indigo-500 uppercase px-2 py-1 text-xs font-bold mr-3">Successfully Added!</span> {{ session('') }} 
                 </div>
             </div>
         @endif
