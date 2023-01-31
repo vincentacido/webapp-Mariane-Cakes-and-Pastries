@@ -37,7 +37,7 @@
  
 
         <!-- About Section-->
-        <section class="page-section bg-primary text-white mb-0" id="About">
+        <section class="page-section .bg-primary text-white mb-0" id="About">
             <div class="container">
         <div class="text-center">
             <h2 class="fst-italic badge bg-primary text-wrap section-heading text-uppercase">About Us</h2>
@@ -89,7 +89,7 @@
             </div>
         </section> --}} 
         
- <section class="content-section" id="Vision and Mission">
+ <section class="page-section" id="Vision and Mission">
                 <div class="text-center">
                     <h2 class="fst-italic badge bg-primary text-wrap section-heading text-uppercase">Vision & Mission</h2>
                     <h3 class="section-subheading text-muted"></h3>
@@ -166,7 +166,7 @@
                     </div> --}}
         
         <!-- Pastries Grid-->
-        <section class="page-section bg-white" id="portfolio">
+        <section class="page-section .bg-white" id="portfolio">
             <div class="container">
                 <div class="text-center">
                     <h2 class="fst-italic badge bg-primary text-wrap section-heading text-uppercase">Pastries</h2>
@@ -261,7 +261,7 @@
 
 
         <!-- Cakes-->
-        <section class="page-section bg-light" id="Cakes">
+        <section class="page-section .bg-light" id="Cakes">
             <div class="container">
                 <div class="text-center">
                     <h2 class="fst-italic badge bg-primary text-wrap section-heading text-uppercase">Cakes</h2>
@@ -324,12 +324,12 @@
 
 
         <!-- Gallery-->
-        {{-- <section id="gallery" class="gallery">
+        <section id="gallery" class="gallery">
 
-      <div class="container" data-aos="fade-up">
-        <div class="section-title">
+      <div class="container fst-italic" data-aos="fade-up">
+        <div class="section-title text-center">
           <h2>Gallery</h2>
-          <p>Some photos of Mariane Cakes and Pastries</p>
+          <h5>Some photos of Mariane's Cakes and Pastries</h5>
         </div>
       </div>
       <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
@@ -338,7 +338,7 @@
 
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="assets/img/portfolio/14.jpg" class="gallery-lightbox" data-gall="gallery-item">
+              {{-- <a href="assets/img/portfolio/14.jpg" class="gallery-lightbox" data-gall="gallery-item"> --}}
                 <img src="assets/img/portfolio/14.jpg" alt="" class="img-fluid">
               </a>
             </div>
@@ -346,7 +346,7 @@
 
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="assets/img/portfolio/5.jpg" class="gallery-lightbox" data-gall="gallery-item">
+              {{-- <a href="assets/img/portfolio/5.jpg" class="gallery-lightbox" data-gall="gallery-item"> --}}
                 <img src="assets/img/portfolio/15.jpg" alt="" class="img-fluid">
               </a>
             </div>
@@ -354,7 +354,7 @@
 
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="assets/img/portfolio/6.jpg" class="gallery-lightbox" data-gall="gallery-item">
+              {{-- <a href="assets/img/portfolio/6.jpg" class="gallery-lightbox" data-gall="gallery-item"> --}}
                 <img src="assets/img/portfolio/6.jpg" alt="" class="img-fluid">
               </a>
             </div>
@@ -362,7 +362,7 @@
 
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="assets/img/portfolio/7.jpg" class="gallery-lightbox" data-gall="gallery-item">
+              {{-- <a href="assets/img/portfolio/7.jpg" class="gallery-lightbox" data-gall="gallery-item"> --}}
                 <img src="assets/img/portfolio/7.jpg" alt="" class="img-fluid">
               </a>
             </div>
@@ -370,7 +370,7 @@
 
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="assets/img/portfolio/9.jpg" class="gallery-lightbox" data-gall="gallery-item">
+              {{-- <a href="assets/img/portfolio/9.jpg" class="gallery-lightbox" data-gall="gallery-item"> --}}
                 <img src="assets/img/portfolio/9.jpg" alt="" class="img-fluid">
               </a>
             </div>
@@ -378,7 +378,7 @@
 
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="assets/img/portfolio/11.jpg" class="gallery-lightbox" data-gall="gallery-item">
+              {{-- <a href="assets/img/portfolio/11.jpg" class="gallery-lightbox" data-gall="gallery-item"> --}}
                 <img src="assets/img/portfolio/11.jpg" alt="" class="img-fluid">
               </a>
             </div>
@@ -386,7 +386,7 @@
 
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="assets/img/portfolio/12.jpg" class="gallery-lightbox" data-gall="gallery-item">
+              {{-- <a href="assets/img/portfolio/12.jpg" class="gallery-lightbox" data-gall="gallery-item"> --}}
                 <img src="assets/img/portfolio/12.jpg" alt="" class="img-fluid">
               </a>
             </div>
@@ -394,7 +394,7 @@
 
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="assets/img/portfolio/13.jpg" class="gallery-lightbox" data-gall="gallery-item">
+              {{-- <a href="assets/img/portfolio/13.jpg" class="gallery-lightbox" data-gall="gallery-item"> --}}
                 <img src="assets/img/portfolio/13.jpg" alt="" class="img-fluid">
               </a>
             </div>
@@ -403,7 +403,7 @@
         </div>
 
       </div>
-    </section> --}}
+    </section>
 
         {{-- <!-- About-->
         <section class="page-section bg-light" id="team">
@@ -549,7 +549,7 @@
                                     <ul class="list-inline">
                                         <li>
                                             <strong>Price:</strong>
-                                            P 60.00/Tub
+                                            P 110.00/Tub
                                         </li>
                                     </ul>
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
@@ -580,7 +580,7 @@
                                     <ul class="list-inline">
                                         <li>
                                             <strong>Price:</strong>
-                                            P 60.00/Tub
+                                            P 110.00/Tub
                                         </li>
                                     </ul>
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
@@ -611,7 +611,7 @@
                                     <ul class="list-inline">
                                         <li>
                                             <strong>Price:</strong>
-                                            P 60.00/Tub
+                                            P 110.00/Tub
                                         </li>
                                     </ul>
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
@@ -642,7 +642,7 @@
                                     <ul class="list-inline">
                                         <li>
                                             <strong>Price:</strong>
-                                            P 60.00/Tub
+                                            P 110.00/Tub
                                         </li>
                                     </ul>
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
