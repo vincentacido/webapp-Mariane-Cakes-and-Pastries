@@ -309,14 +309,14 @@
                             <div class="timeline-body"><p class="fst-italic">Cake with leche flan or caramel custard cake is a two-layer delicacy. Specifically, a light and airy chiffon cake layer was placed on top of a layer of caramel custard. A light chiffon cake is combined with a sweet caramel custard to give it firmness. The custard has a hint of burnt sugar flavor.</p></div>
                         </div>
                     </li>
-                    {{-- <li class="timeline-inverted">
+                    <li class="timeline-inverted">
                         <div class="fst-italic timeline-image">
                             <h4>
                                 Buy
                                 <br />
                                 Now!
                                 <br />
-                            </h4> --}}
+                            </h4>
                         </div>
                     </li>
                 </ul>
@@ -502,7 +502,7 @@
                         <div class="col-md-6">
                             <div class="form-group form-group-textarea mb-md-0">
                                 <div class="responsive-container">
-                                    <iframe class="responsive-iframe d-flex align-content-around flex-wrap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d924.9788965363963!2d125.55306392918145!3d8.962668024328067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc7b4a50a174a079d!2zOMKwNTcnNDUuNiJOIDEyNcKwMzMnMTMuMCJF!5e1!3m2!1sen!2sph!4v1674537397526!5m2!1sen!2sph" width="426" height="270" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                    <iframe class="responsive-iframe d-flex align-content-around flex-wrap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d924.9788965363963!2d125.55306392918145!3d8.962668024328067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc7b4a50a174a079d!2zOMKwNTcnNDUuNiJOIDEyNcKwMzMnMTMuMCJF!5e1!3m2!1sen!2sph!4v1674537397526!5m2!1sen!2sph" width="400" height="270" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                                 </div>
                             </div>
                         </div>
@@ -511,14 +511,14 @@
                     <!---->
                     <!-- This is what your users will see when the form-->
                     <!-- has successfully submitted-->
-                    <div class="d-none" id="submitSuccessMessage">
+                    {{-- <div class="d-none" id="submitSuccessMessage">
                         <div class="text-center text-white mb-3">
                             <div class="fw-bolder">Form submission successful!</div>
                             To activate this form, sign up at
                             <br />
                             <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
                         </div>
-                    </div>
+                    </div> --}}
                     {{-- <!-- Submit error message-->
                     <!---->
                     <!-- This is what your users will see when there is-->

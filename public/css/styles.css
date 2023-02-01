@@ -883,10 +883,10 @@ progress {
   --bs-gutter-y: 1.5rem;
 }
 
-/* .g-5,
+.g-5,
 .gx-5 {
-  --bs-gutter-x: 3rem;
-} */
+  --bs-gutter-x: 1rem;
+}
 
 .g-5,
 .gy-5 {
@@ -11805,7 +11805,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 @media (max-width: 768px) {
         .responsive-iframe {
-            width: 100vw;
+            width: 1vw;
             height: 50vh;
         }
     }
