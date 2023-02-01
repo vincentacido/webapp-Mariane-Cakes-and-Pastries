@@ -11823,10 +11823,10 @@ section#contact form#contactForm :-ms-input-placeholder {
       
     .carousel-cell{
       width: 66%;
-      height: 500px;
+      height: 450px;
       margin-right: 10px;
       border-radius: 15px;
-      background-size: cover;
+      background-size: contain;
       background-position: center center;
     }
     

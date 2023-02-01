@@ -89,8 +89,9 @@
             </div>
         </section> --}} 
         
- <section class="page-section" id="Vision and Mission">
-                <div class="text-center">
+ <section class="page-section .bg-primary text-white mb-0" id="Vision and Mission">
+            <div class="container">
+        <div class="text-center">
                     <h2 class="fst-italic badge bg-primary text-wrap section-heading text-uppercase">Vision & Mission</h2>
                     <h3 class="section-subheading text-muted"></h3>
                 </div>   
